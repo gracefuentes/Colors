@@ -32,7 +32,7 @@ ColorsTableView.dataSource = self
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ColorsCell", for: indexPath)
         cell.textLabel?.text = colors[indexPath.row]
-        //cell.backgroundColor = UIcolor.orange
+        cell.backgroundColor = UIColor.green
         return cell
     }
     /*
