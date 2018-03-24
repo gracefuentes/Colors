@@ -14,6 +14,7 @@
 		13A9FDFC2063753F00C3125E /* colors_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A9FDFB2063753F00C3125E /* colors_1Tests.swift */; };
 		13A9FE072063753F00C3125E /* colors_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A9FE062063753F00C3125E /* colors_1UITests.swift */; };
 		13A9FE152063EA8300C3125E /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A9FE142063EA8300C3125E /* ColorsViewController.swift */; };
+		13A9FE172063FA3100C3125E /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A9FE162063FA3100C3125E /* color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		13A9FE062063753F00C3125E /* colors_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colors_1UITests.swift; sourceTree = "<group>"; };
 		13A9FE082063753F00C3125E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13A9FE142063EA8300C3125E /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		13A9FE162063FA3100C3125E /* color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				13A9FDEF2063753F00C3125E /* LaunchScreen.storyboard */,
 				13A9FDF22063753F00C3125E /* Info.plist */,
 				13A9FE142063EA8300C3125E /* ColorsViewController.swift */,
+				13A9FE162063FA3100C3125E /* color.swift */,
 			);
 			path = colors.1;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A9FE172063FA3100C3125E /* color.swift in Sources */,
 				13A9FE152063EA8300C3125E /* ColorsViewController.swift in Sources */,
 				13A9FDE72063753F00C3125E /* AppDelegate.swift in Sources */,
 			);
